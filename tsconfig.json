@@ -2,8 +2,10 @@
 
   "compilerOptions": {
     "outDir": "./lib",
-    "module": "commonjs",
-    "target": "es5",
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "lib": ["esnext"],
     "esModuleInterop": true
   }
 }
