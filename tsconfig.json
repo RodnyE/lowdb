@@ -1,6 +1,9 @@
 {
   "extends": "@sindresorhus/tsconfig",
   "compilerOptions": {
-    "outDir": "./lib"
+    "outDir": "./lib",
+    "module": "commonjs",
+    "target": "es5",
+    "esModuleInterop": true
   }
 }
