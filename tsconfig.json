@@ -1,5 +1,5 @@
 {
-  "extends": "@sindresorhus/tsconfig",
+
   "compilerOptions": {
     "outDir": "./lib",
     "module": "commonjs",
